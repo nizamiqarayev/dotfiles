@@ -44,12 +44,6 @@ if [ -d "$HOME/.local/share/go/bin" ]; then
         [ -d "$d" ] && append_path "${d%/}"
     done
 fi
-if [ -d "$HOME/Documents/Github/Gists" ]; then
-    append_path "$HOME/Documents/Github/Gists"
-    for d in "$HOME/Documents/Github/Gists"/*/; do
-        [ -d "$d" ] && append_path "${d%/}"
-    done
-fi
 export PATH
 
 # XDG Setup

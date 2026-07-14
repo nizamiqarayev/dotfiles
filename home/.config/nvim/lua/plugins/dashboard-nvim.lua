@@ -130,7 +130,7 @@ return {
                         group = "DiagnosticError",
                         action = function()
                             SmartFiles({
-                                cwd = "~/Documents/Github/Repos/dotfiles/",
+                                cwd = "~/Projects/dotfiles/",
                                 hidden = true,
                                 prompt = "dotfiles❯ ",
                             })
@@ -142,24 +142,12 @@ return {
                         group = "DiagnosticWarn",
                         action = function()
                             PickProject({
-                                cwd = "~/Documents/Github/Repos/",
+                                cwd = "~/Projects/",
                                 hidden = true,
                                 prompt = "Repo❯ ",
                             })
                         end,
                         key = "r",
-                    },
-                    {
-                        desc = " Gists ",
-                        group = "DiagnosticWarn",
-                        action = function()
-                            PickProject({
-                                cwd = "~/Documents/Github/Gists/",
-                                hidden = true,
-                                prompt = "Gist❯ ",
-                            })
-                        end,
-                        key = "g",
                     },
                 },
             },

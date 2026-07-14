@@ -32,10 +32,10 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 
 -- dwmblocks recompile
 vim.api.nvim_create_autocmd("BufWritePost", {
-    pattern = vim.fn.expand("~/Documents/Github/Repos/dwmblocks/config.h"),
+    pattern = vim.fn.expand("~/Projects/dwmblocks/config.h"),
     callback = function()
         vim.cmd(
-            "silent !cd ~/Documents/Github/Repos/dwmblocks && sudo make install && killall -q dwmblocks; setsid dwmblocks &"
+            "silent !cd ~/Projects/dwmblocks && sudo make install && killall -q dwmblocks; setsid dwmblocks &"
         )
     end,
 })

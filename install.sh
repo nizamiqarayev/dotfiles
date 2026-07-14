@@ -4,12 +4,7 @@ create_folders() {
     mkdir -p "$HOME/.config"
     mkdir -p "$HOME/.local/bin"
     mkdir -p "$HOME/.local/share/applications"
-    mkdir -p "$HOME/Documents/Github/Gists"
-    mkdir -p "$HOME/Documents/Github/Repos"
-    mkdir -p "$HOME/Documents/LNs"
-    mkdir -p "$HOME/Documents/Notes"
-    mkdir -p "$HOME/Documents/Papers"
-    mkdir -p "$HOME/Documents/ROM"
+    mkdir -p "$HOME/Documents"
     mkdir -p "$HOME/Downloads"
     mkdir -p "$HOME/Music"
     mkdir -p "$HOME/Pictures/gallery-dl"
@@ -17,8 +12,9 @@ create_folders() {
     mkdir -p "$HOME/Pictures/Screenshots"
     mkdir -p "$HOME/Pictures/Wallpapers"
     mkdir -p "$HOME/Videos/Recordings"
-    mkdir -p "$HOME/Videos/Seasonals"
-    mkdir -p "$HOME/Videos/Temp"
+    mkdir -p "$HOME/Projects"
+    mkdir -p "$HOME/Games"
+    mkdir -p "$HOME/Torrents"
     sudo mkdir -p /etc/modprobe.d
     sudo mkdir -p /etc/profile.d
     sudo mkdir -p /root/.config
