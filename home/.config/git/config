@@ -1,0 +1,76 @@
+[user]
+    email = nizamiqarayev59@gmail.com
+    name = nizamiqarayev
+    signingkey = ~/.ssh/id_ed25519.pub
+[init]
+    defaultBranch = main
+[core]
+    pager = less
+    editor = nvim
+    whitespace = -trailing-space
+    excludesfile = ~/.config/git/ignore
+[gpg]
+    format = ssh
+[gpg "ssh"]
+    allowedSignersFile = ~/.config/git/allowed_signers
+[color]
+    ui = auto
+[color "branch"]
+    current = green bold
+    local = red bold
+    remote = cyan bold
+[commit]
+    gpgSign = true
+    verbose = true
+[fetch]
+    recurseSubmodules = on-demand
+[pull]
+    rebase = merges
+[push]
+    default = upstream
+    followTags = true
+    autoSetupRemote = true
+[merge]
+    ff = false
+[mergetool]
+    keepBackup = false
+    keepTemporaries = false
+    writeToTemp = true
+    prompt = false
+[status]
+    submoduleSummary = true
+    showUntrackedFiles = all
+[log]
+    abbrevCommit = true
+    follow = true
+    decorate = false
+[diff]
+    mnemonicPrefix = true
+    renames = true
+    wordRegex = .
+    submodule = log
+    tool = nvim -d
+[difftool]
+    prompt = false
+[grep]
+    break = true
+    heading = true
+    lineNumber = true
+    extendedRegexp = true
+[alias]
+    aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
+    lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
+[tag]
+    sort = version:refname
+[versionsort]
+    prereleaseSuffix = -pre
+    prereleaseSuffix = .pre
+    prereleaseSuffix = -beta
+    prereleaseSuffix = .beta
+    prereleaseSuffix = -rc
+    prereleaseSuffix = .rc
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
