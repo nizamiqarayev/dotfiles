@@ -1,7 +1,3 @@
-[submodule "home/.config/git"]
-	path = home/.config/git
-	url = git@github.com:NecRaul/gitconfig.git
-	branch = main
 [submodule "home/.config/mpv"]
 	path = home/.config/mpv
 	url = git@github.com:NecRaul/mpv-configs.git
