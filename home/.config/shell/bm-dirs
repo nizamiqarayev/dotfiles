@@ -5,16 +5,17 @@ Pictures ~/Pictures
 Music ~/Music
 Videos ~/Videos
 
-Projects ~/Projects
 Notes ~/Documents/Notes
 
 mpv ~/Pictures/mpv
-Phone ~/Pictures/Phone
 Screenshots ~/Pictures/Screenshots
 Wallpapers ~/Pictures/Wallpapers
 
 Recordings ~/Videos/Recordings
-Seasonals ~/Videos/Seasonals
+
+Games ~/Games
+Projects ~/Projects
+Torrent ~/Torrents
 
 Cache ~/.cache
 Config ~/.config
@@ -25,5 +26,3 @@ State ~/.local/state
 
 Root /
 RootHome /root
-
-Torrent ~/Torrents

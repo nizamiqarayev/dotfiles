@@ -4,16 +4,15 @@ create_folders() {
     mkdir -p "$HOME/.config"
     mkdir -p "$HOME/.local/bin"
     mkdir -p "$HOME/.local/share/applications"
-    mkdir -p "$HOME/Documents"
+    mkdir -p "$HOME/Documents/Notes"
     mkdir -p "$HOME/Downloads"
     mkdir -p "$HOME/Music"
-    mkdir -p "$HOME/Pictures/gallery-dl"
     mkdir -p "$HOME/Pictures/mpv"
     mkdir -p "$HOME/Pictures/Screenshots"
     mkdir -p "$HOME/Pictures/Wallpapers"
     mkdir -p "$HOME/Videos/Recordings"
-    mkdir -p "$HOME/Projects"
     mkdir -p "$HOME/Games"
+    mkdir -p "$HOME/Projects"
     mkdir -p "$HOME/Torrents"
     sudo mkdir -p /etc/modprobe.d
     sudo mkdir -p /etc/profile.d
