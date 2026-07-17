@@ -1,7 +1,3 @@
-[submodule "home/.config/mpv"]
-	path = home/.config/mpv
-	url = git@github.com:NecRaul/mpv-configs.git
-	branch = main
 [submodule "home/.local/bin/4chan-pywal"]
 	path = home/.local/bin/4chan-pywal
 	url = git@github.com:NecRaul/4chan-pywal.git
