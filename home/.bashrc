@@ -32,4 +32,11 @@ source_if_exists "$XDG_CONFIG_HOME/bash/history"
 source_if_exists "$XDG_CONFIG_HOME/bash/less"
 source_if_exists "$XDG_CONFIG_HOME/bash/personal"
 
-[ -z "$NO_TMUX" ] && source_if_exists "$XDG_CONFIG_HOME/bash/tmux"
+if [ -z "$NO_TMUX" ]; then
+    if command -v fastfetch >/dev/null 2>&1; then
+        echo
+        fastfetch
+        echo
+    fi
+    source_if_exists "$XDG_CONFIG_HOME/bash/tmux"
+fi
