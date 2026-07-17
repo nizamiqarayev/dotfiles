@@ -73,7 +73,7 @@ function delete()
                   file_name = string.format("%s_%d", file_name, i)
                end
             end
-            
+
             local movedPath = utils.join_path(options.DeletedFilesPath, file_name)
             local fileInfo = utils.file_info(movedPath)
             if not fileInfo then

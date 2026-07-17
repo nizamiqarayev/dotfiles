@@ -513,4 +513,3 @@ function gallery_mt.deactivate(gallery)
 end
 
 return {gallery_new = gallery_new}
-
