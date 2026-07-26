@@ -14,7 +14,14 @@ source_if_exists() {
     source "$@"
 }
 
-[ -z "$NO_TMUX" ] && source_if_exists "$XDG_CONFIG_HOME/bash/tmux"
+if [ -z "$NO_TMUX" ]; then
+    source_if_exists "$XDG_CONFIG_HOME/bash/tmux"
+    if command -v fastfetch >/dev/null 2>&1; then
+        echo
+        fastfetch
+        echo
+    fi
+fi
 
 # vi mode
 set -o vi

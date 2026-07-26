@@ -18,22 +18,22 @@ osc52 = false
 selection = "Clipboard"
 
 [client.command]
-cmd = 'curl "{torrent}" > /mnt/Other/Torrent/{file}'
+cmd = 'curl "{torrent}" > ~/Torrents/{file}'
 shell_cmd = "sh -c"
 
 [client.qBittorrent]
 base_url = "http://localhost:8080"
-username = "NecRaul"
-password_file = "/home/necraul/.config/nyaa/password"
+username = "admin"
+password_file = "/home/nizamiq/.config/nyaa/password"
 use_magnet = true
-savepath = "/downloads/seasonal"
-category = "seasonal"
+savepath = "~/Torrents"
+category = ""
 
 [client.default_app]
 use_magnet = true
 
 [client.download]
-save_dir = "/mnt/Other/Torrent/"
+save_dir = "~/Torrents"
 filename = "{file}"
 overwrite = true
 create_root_folder = true

@@ -1,6 +1,6 @@
-originals_directory = "/home/necraul/Pictures/Wallpapers/Kuroneko/"
-cache_directory = "/home/necraul/.cache/wallpapers/cache"
-database = "/home/necraul/.cache/wallpapers/database"
+originals_directory = "/home/nizamiq/Pictures/Wallpapers/"
+cache_directory = "/home/nizamiq/.cache/wallpapers/cache"
+database = "/home/nizamiq/.cache/wallpapers/database"
 alternate_upscaler = "waifu2x-upscale.py"
 upscaling_jobs = 1
 single_wallpaper = true

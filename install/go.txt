@@ -1,5 +1,6 @@
 github.com/antonmedv/fx@latest
 github.com/charmbracelet/freeze@latest
 github.com/charmbracelet/gum@latest
+github.com/golang-migrate/migrate/v4/cmd/migrate@latest
 github.com/projectdiscovery/httpx/cmd/httpx@latest
 github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest

@@ -5,25 +5,18 @@ Pictures ~/Pictures
 Music ~/Music
 Videos ~/Videos
 
-Books ~/Documents/Books
-Github ~/Documents/Github
 Notes ~/Documents/Notes
-Papers ~/Documents/Papers
-Gists ~/Documents/Github/Gists
-Repos ~/Documents/Github/Repos
 
-4chan ~/Pictures/4chan
-gallery-dl ~/Pictures/gallery-dl
 mpv ~/Pictures/mpv
-Phone ~/Pictures/Phone
 Screenshots ~/Pictures/Screenshots
 Wallpapers ~/Pictures/Wallpapers
 
-Anime ~/Videos/Anime
-Movies ~/Videos/Movies
 mpv ~/Videos/mpv
 Recordings ~/Videos/Recordings
-Seasonals ~/Videos/Seasonals
+
+Games ~/Games
+Projects ~/Projects
+Torrent ~/Torrents
 
 Cache ~/.cache
 Config ~/.config
@@ -34,6 +27,3 @@ State ~/.local/state
 
 Root /
 RootHome /root
-
-Other /mnt/Other
-Torrent /mnt/Other/Torrent

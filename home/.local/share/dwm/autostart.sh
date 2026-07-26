@@ -5,6 +5,6 @@
 
 run dwmblocks dwmblocks
 run steam steam
-run vesktop vesktop
-run spotify-launcher spotify-launcher
+# run vesktop vesktop
+# run spotify-launcher spotify-launcher
 run disable-primary disable-primary
